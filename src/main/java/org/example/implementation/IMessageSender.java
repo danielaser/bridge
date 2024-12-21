@@ -1,5 +1,5 @@
 package org.example.implementation;
 
-public interface MessageSender {
+public interface IMessageSender {
     public void sendMessage(String message);
 }

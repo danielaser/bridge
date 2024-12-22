@@ -13,6 +13,7 @@ public class User {
     }
 
     public void sendMessage(String content, Message message) {
+        System.out.println("*** CHAT ***");
         System.out.println(name + " esta enviando un mensaje:");
         message.sendMessageContent(content);
     }

@@ -9,6 +9,6 @@ public class EmailMessage extends Message {
 
     @Override
     public void sendMessageContent(String content) {
-        sender.sendMessage("<> Mensaje de correo: " + content);
+        sender.sendMessage(">>>> Mensaje de correo: " + content);
     }
 }

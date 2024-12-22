@@ -10,6 +10,6 @@ public class TextMessage extends Message {
 
     @Override
     public void sendMessageContent(String content) {
-        sender.sendMessage("Mensaje de texto: " + content);
+        sender.sendMessage("<> Mensaje de texto: " + content);
     }
 }

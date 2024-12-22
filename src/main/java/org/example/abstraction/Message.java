@@ -12,5 +12,5 @@ public abstract class Message {
     public Message() {
     }
 
-    public abstract void sendMessage(String content);
+    public abstract void sendMessageContent(String content);
 }
